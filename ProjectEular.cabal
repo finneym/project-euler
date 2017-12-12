@@ -1,0 +1,31 @@
+name:                 ProjectEular
+version:              0.1.0.0
+synopsis:
+-- description:
+-- license:
+-- license-file:
+homepage:
+author:               Max Finney
+maintainer:           max.finney@coremedia.ie
+category:
+-- copyright:
+build-type:           Simple
+-- extra-source-files:
+cabal-version:        >=1.10
+
+executable ProjectEular
+  main-is:              Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:        base >= 4.7 && < 5,
+                        primes >= 0.2.1.0,
+                        random >= 1.1,
+                        Unique >= 0.4.7.1,
+                        combinat >= 0.2.8.2,
+                        array >= 0.5.1.1,
+                        numerals >= 0.4.1,
+                        regexpr >= 0.5.4,
+                        MissingH >= 1.4.0.1,
+                        parsec >= 3.1.11
+  hs-source-dirs:       src
+  default-language:     Haskell2010
